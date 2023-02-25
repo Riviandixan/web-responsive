@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>YuCoding</title>
@@ -14,260 +14,134 @@
 
 <body>
   <div id="slideout-menu">
-      <ul>
-          <li>
-              <a href="index.html">Home</a>
-          </li>
-          <li>
-              <a href="blogslist.html">Blog</a>
-          </li>
-          <li>
-              <a href="blogslist.html">Projects</a>
-          </li>
-          <li>
-              <a href="about.html">About</a>
-          </li>
-          <li>
-              <input type="text" placeholder="Search Here">
-          </li>
-      </ul>
+    <ul>
+      <li>
+        <a class="active" href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="blogslist.html">Blog</a>
+      </li>
+      <li>
+        <a href="blogslist.html">Sensor</a>
+      </li>
+    </ul>
   </div>
 
   <nav>
-      <div id="logo-img">
-          <a href="#">
-              <img src="img/logo.png" alt="GTCoding Logo">
-          </a>
-      </div>
-      <div id="menu-icon">
-          <i class="fas fa-bars"></i>
-      </div>
-      <ul>
-          <li>
-              <a href="index.html">Home</a>
-          </li>
-          <li>
-              <a class="active" href="blogslist.html">Blog</a>
-          </li>
-          <li>
-              <a href="blogslist.html">Projects</a>
-          </li>
-          <li>
-              <a href="about.html">About</a>
-          </li>
-          <li>
-              <div id="search-icon">
-                  <i class="fas fa-search"></i>
-              </div>
-          </li>
-      </ul>
+    <div id="logo-img">
+      <a href="#">
+        MIPA-8
+      </a>
+    </div>
+    <div id="menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a class="active" href="blogslist.html">Blog</a>
+      </li>
+      <li>
+        <a href="sensor.html">Sensor</a>
+      </li>
+    </ul>
   </nav>
 
   <div id="searchbox">
-      <input type="text" placeholder="Search Here">
+    <input type="text" placeholder="Search Here">
   </div>
 
   <main>
-    <h2 class="page-heading">Blogs</h2>
+    <h2 class="page-heading">Arduino</h2>
 
     <section>
       <div class="card">
         <div class="card-image">
           <a href="blogpost.html">
-            <img src="img/1.jpg" alt="Card Image">
+            <img src="img/content1.jfif" alt="Card Image">
           </a>
         </div>
 
         <div class="card-description">
-          <a href="blogpost.html">
-            <h3>The Blog Title Here</h3>
+          <a href="definisi.html">
+            <h3>Definisi</h3>
           </a>
-          <div class="card-meta">
-            Posted by Admin on 23/01/2018 in
-            <a href="#">Web Dev</a>
-          </div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
-            cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+            Arduino Uno adalah papan mikrokontroler open-source berbasis mikrokontroler Microchip ATmega328P
+            dan dikembangkan oleh Arduino.cc dan awalnya dirilis pada tahun 2010. Papan ini dilengkapi
+            dengan set pin input/output (I/O) digital dan analog yang dapat dihubungkan ke berbagai papan
+            ekspansi (perisai) dan sirkuit lainnya. Board ini memiliki 14 pin I/O digital (enam yang mampu
+            menghasilkan output PWM ), 6 pin I/O analog, dan dapat diprogram dengan Arduino IDE (Integrated
+            Development Environment), melalui kabel USB tipe B.
           </p>
-          <a href="blogpost.html" class="btn-readmore">Read more</a>
+          <a href="definisi.html" class="btn-readmore">Read more</a>
         </div>
       </div>
 
       <div class="card">
         <div class="card-image">
-          <a href="#">
+          <a href="blogpost.html">
+            <img src="img/content5.jfif" alt="Card Image">
+          </a>
+        </div>
+
+        <div class="card-description">
+          <a href="sejarah.html">
+            <h3>Sejarah</h3>
+          </a>
+          <p>
+            Semuanya berawal dari sebuah tesis yang dibuat oleh Hernando Barragan, di Institute Ivrea,
+            Italia pada tahun 2005, dikembangkan oleh Massimo Banzi dan David Cuartielles dan diberi nama
+            Arduin of Ivrea. Lalu diganti nama menjadi Arduino yang dalam bahasa Italia berarti teman yang
+            berani.
+          </p>
+          <a href="sejarah.html" class="btn-readmore">Read more</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <!-- <div class="card-image">
+          <a href="blogpost.html">
             <img src="img/2.jpg" alt="Card Image">
           </a>
-        </div>
-
-        <div class="card-description">
-          <a href="#">
-            <h3>The Blog Title Here</h3>
-          </a>
-          <div class="card-meta">
-            Posted by Admin on 23/01/2018 in
-            <a href="#">Web Dev</a>
-          </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
-            cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
-          </p>
-          <a href="#" class="btn-readmore">Read more</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <a href="blogpost.html">
-            <img src="img/1.jpg" alt="Card Image">
-          </a>
-        </div>
+        </div> -->
 
         <div class="card-description">
           <a href="blogpost.html">
-            <h3>The Blog Title Here</h3>
+            <h3>Fungsi</h3>
           </a>
-          <div class="card-meta">
-            Posted by Admin on 23/01/2018 in
-            <a href="#">Web Dev</a>
-          </div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
-            cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+            Arduino Uno ini dibuat untuk memudahkan pengguna dalam melakukan prototyping, memprogram
+            mikrokontroler, membuat alat-alat canggih berbasis mikrokontorler.
           </p>
-          <a href="blogpost.html" class="btn-readmore">Read more</a>
+          <!-- <a href="blogpost.html" class="btn-readmore">Read more</a> -->
         </div>
       </div>
 
-      <div class="card">
-        <div class="card-image">
-          <a href="#">
-            <img src="img/2.jpg" alt="Card Image">
-          </a>
-        </div>
-
-        <div class="card-description">
-          <a href="#">
-            <h3>The Blog Title Here</h3>
-          </a>
-          <div class="card-meta">
-            Posted by Admin on 23/01/2018 in
-            <a href="#">Web Dev</a>
-          </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
-            cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
-          </p>
-          <a href="#" class="btn-readmore">Read more</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <a href="blogpost.html">
-            <img src="img/1.jpg" alt="Card Image">
-          </a>
-        </div>
-
-        <div class="card-description">
-          <a href="blogpost.html">
-            <h3>The Blog Title Here</h3>
-          </a>
-          <div class="card-meta">
-            Posted by Admin on 23/01/2018 in
-            <a href="#">Web Dev</a>
-          </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
-            cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
-          </p>
-          <a href="blogpost.html" class="btn-readmore">Read more</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <a href="#">
-            <img src="img/2.jpg" alt="Card Image">
-          </a>
-        </div>
-
-        <div class="card-description">
-          <a href="#">
-            <h3>The Blog Title Here</h3>
-          </a>
-          <div class="card-meta">
-            Posted by Admin on 23/01/2018 in
-            <a href="#">Web Dev</a>
-          </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
-            cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
-          </p>
-          <a href="#" class="btn-readmore">Read more</a>
-        </div>
-      </div>
     </section>
 
-    <div class="pagination">
-      <a href="#">Prev</a>
-      <a href="#">4</a>
-      <a href="#">5</a>
-      <a href="#">6</a>
-      <a href="#">Next</a>
-    </div>
 
     <footer>
-        <div id="left-footer">
-            <h3>Quick Links</h3>
-            <p>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="blogslist.html">Blogs</a>
-                    </li>
-                    <li>
-                        <a href="blogslist.html">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </p>
-        </div>
+      <div id="left-footer">
+        <h3>Quick Links</h3>
+        <p>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="blogpost.html">Blog</a>
+            </li>
+            <li>
+              <a href="sensor.html">Sensor</a>
+            </li>
+          </ul>
+        </p>
+      </div>
 
-        <div id="right-footer">
-            <h3>Follow us on</h3>
-            <div id="social-media-footer">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <p>This website is developed by YuCoding</p>
-        </div>
+
     </footer>
 
   </main>
